@@ -1,0 +1,33 @@
+.showcase{
+      max-width: 800px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: auto;
+      font-weight: bold;
+      
+
+
+      }
+      .showcase_btn:hover {
+            color: orange;
+          }
+      p {
+            font-family: 'Courier New', Courier, monospace;
+            margin-top: 8px;
+            margin-bottom: 20px;
+      }
+      .showcase_btn{
+            border: white solid;
+            padding: 3px;
+            margin-left: 8px;
+            box-sizing: border-box;
+      }
+@media screen and (max-width:850px) {
+      .showcase{
+            display: none;
+      }
+      
+}
